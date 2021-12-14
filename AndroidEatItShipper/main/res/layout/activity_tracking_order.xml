@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackingOrder">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TrackingOrder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_call"
+            android:text="CALL"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_alignParentBottom="true"
+            app:fButtonColor="@color/colorPrimary"
+            app:shadowColor="@android:color/white"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_shipped"
+            android:text="SHIPPED"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_alignParentBottom="true"
+            app:fButtonColor="@android:color/white"
+            app:shadowColor="@color/colorPrimary"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

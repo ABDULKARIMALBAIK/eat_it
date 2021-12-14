@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidEatItShipper</string>
+    <string name="slogan">You can shipping any thing you want, after taking the order, you can ship it to the client \nGood Luck</string>
+    <string name="title_activity_tracking_order">Map</string>
+
+    //We transport product to customers as quickly as our ex betrays
+</resources>

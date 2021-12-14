@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Menu" />
+
+        <item
+            android:id="@+id/nav_home_address"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Home Address" />
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Favorites" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@mipmap/ic_shop_cart_black"
+            android:iconTint="@android:color/white"
+            android:title="Cart" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Orders" />
+
+        <item
+            android:id="@+id/nav_change_pwd"
+            android:icon="@drawable/icon_security_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/nav_change_name"
+            android:icon="@drawable/ic_tag_faces_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Change Name" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Sign out" />
+
+    </group>
+
+
+</menu>
